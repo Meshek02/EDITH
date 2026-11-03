@@ -65,3 +65,11 @@ models/
 artifacts/
 *.gguf
 *.safetensors
+
+# Local-only AI evaluation outputs
+data/benchmarks/
+
+# Additional local model and Ollama runtime artifacts
+data/models/
+.ollama/
+*.ggml

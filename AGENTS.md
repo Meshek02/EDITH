@@ -18,7 +18,7 @@ Target Python 3.12 initially. Add type hints to new Python code, clear error han
 
 ## Roadmap and current state
 1. Foundation & Architecture: Task A completed; Task B completed and verified; Task C completed and verified. Phase 1 final technical review passed. The final-review task authorizes exactly one initial local checkpoint after user-confirmed repository-local identity and staged-content review; inspect Git history for checkpoint state. Phase 2 requires a separate instruction.
-2. AI Brain: not started.
+2. AI Brain: Task A local Ollama/GPU evaluation and benchmarks completed; Task B backend integration not started. See docs/LOCAL_AI.md.
 3. Voice & Personality: not started.
 4. Windows Automation: not started.
 5. School & Calendar: not started.

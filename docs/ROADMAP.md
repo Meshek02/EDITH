@@ -1,6 +1,6 @@
 # Eight-phase roadmap
 
-Current status: Phase 1 Tasks A, B and C completed and verified. Phase 1 final technical review passed; the initial local checkpoint is handled under the final-review authorization (inspect Git history for its state). Phases 2-8 not started. The minimal backend/configuration/logging/deny-all policy and automated tests are implemented; later operational features remain planned.
+Current status: Phase 1 Tasks A, B and C completed and verified. Phase 1 final technical review passed; the initial local checkpoint is handled under the final-review authorization (inspect Git history for its state). Phase 2 Task A completed: local Ollama/GPU evaluation and benchmarks verified; Task B and Phases 3-8 are not started. The minimal backend/configuration/logging/deny-all policy and automated tests are implemented; later operational features remain planned.
 
 ## Phase 1 - Foundation & Architecture
 - Objective: establish a secure, testable Windows development foundation.
@@ -16,7 +16,7 @@ Current status: Phase 1 Tasks A, B and C completed and verified. Phase 1 final t
 - Dependencies: tested Phase 1 foundation, authorized provider setup, verified AMD driver/runtime compatibility and model benchmarks.
 - Deliverable: text assistant using local/cloud models under policy and budget controls.
 - Acceptance: routing, offline/provider errors, memory CRUD, privacy boundaries and tool authorization tested; real provider behavior verified where authorized.
-- Status: not started.
+- Status: Task A completed and verified: Ollama 0.40.13, three candidate benchmarks with 100% GPU placement, local-only runtime and unchanged Phase 1 regression checks. Initial memory stop and model/output limitations documented in LOCAL_AI.md. Task B not started; Phase 2 is not complete.
 
 ## Phase 3 - Voice & Personality
 - Objective: configurable voice interactions.
