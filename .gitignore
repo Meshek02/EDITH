@@ -1,0 +1,67 @@
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+credentials.json
+client_secret*.json
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Runtime data
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+logs/
+*.log
+tmp/
+*.tmp
+*.temp
+
+# Frontend generated files
+node_modules/
+.next/
+frontend/out/
+*.tsbuildinfo
+
+# Local editor and OS state
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db
+Desktop.ini
+~$*
+
+# Local model weights and generated artifacts
+models/
+artifacts/
+*.gguf
+*.safetensors
